@@ -1,0 +1,2 @@
+# click to calatog button on navigation bar
+* click on the element with "XPATH" whose value is equal to ":KW_navigation[navigationBar.btn_catalog]"

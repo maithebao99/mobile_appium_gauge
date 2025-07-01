@@ -10,11 +10,6 @@ import utils.Constant;
 @Slf4j
 public class AppSteps {
 
-    @Step("launch app")
-    public void launchApp() {
-        ApkInstaller.launchApp();
-    }
-
     @Step("uninstall app")
     public void uninstallApp() {
         ApkInstaller.uninstallApp();
