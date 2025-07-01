@@ -1,5 +1,5 @@
 header:
-  navigation_icon: //android.widget.ImageView[@content-desc="View menu"]
+  navigation_icon: View menu #accessid
   sort_btn: //android.widget.ImageView[@resource-id='com.saucelabs.mydemoapp.android:id/sortIV']
   shopping_cart_icon: com.saucelabs.mydemoapp.android:id/cartRL     #id
 products_list:

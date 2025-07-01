@@ -1,5 +1,5 @@
 # click on the navigation icon
-* click on the element with "XPATH" whose value is equal to ":KW_home[header.navigation_icon]"
+* click on the element with "ACCESSIBILITY_ID" whose value is equal to ":KW_home[header.navigation_icon]"
 
 # click on the shopping cart icon
 * wait for "1" second(s)
@@ -7,3 +7,6 @@
 
 # click on the sort icon
 * click on the element with "XPATH" whose value is equal to ":KW_home[header.shopping_cart_icon]"
+
+# click on the first product on home screen
+* click on the element with "XPATH" whose value is equal to ":KW_home[products_list.first_product]"

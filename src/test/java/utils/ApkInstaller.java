@@ -4,7 +4,6 @@ import driver.DriverFactory;
 import io.appium.java_client.android.AndroidDriver;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;

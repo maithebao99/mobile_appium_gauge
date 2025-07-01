@@ -5,7 +5,6 @@ import com.thoughtworks.gauge.datastore.SpecDataStore;
 import com.thoughtworks.gauge.datastore.SuiteDataStore;
 import lombok.extern.slf4j.Slf4j;
 import org.yaml.snakeyaml.Yaml;
-
 import java.io.InputStream;
 import java.util.Map;
 
