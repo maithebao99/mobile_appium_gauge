@@ -1,16 +1,22 @@
 # open login screen successfully
+* wait for "2" second(s)
 * click on the navigation icon
 * click on the element with "XPATH" whose value is equal to ":KW_navigation[navigationBar.btn_login]"
 
+
 # input user name <userName> password <passWord> and click button login
+* wait for "2" second(s)
 * input value <userName> on the element with "XPATH" whose value is equal to ":KW_login[login.textbox_username]"
 * input value <passWord> on the element with "XPATH" whose value is equal to ":KW_login[login.textbox_password]"
 * click on the element with "XPATH" whose value is equal to ":KW_login[login.btn_login]"
 
+
 # verify login successfully
+* wait for "2" second(s)
 * click on the navigation icon
 * get value on the element with "XPATH" whose value is equal to ":KW_navigation[navigationBar.btn_logout]" and save to variable ":SP_text_logout"
 * verify the text on the element with "XPATH" whose value is equal to ":KW_navigation[navigationBar.btn_logout]" with condition "EQUAL" and expected text ":KW_navigation[navigationBar.text_logout]"
+
 
 # login successfully with user name <userName> and password <passWord>
 * open login screen successfully

@@ -2,7 +2,8 @@
 * click on the element with "XPATH" whose value is equal to ":KW_home[header.navigation_icon]"
 
 # click on the shopping cart icon
-* click on the element with "XPATH" whose value is equal to ":KW_home[header.shopping_cart_icon]"
+* wait for "1" second(s)
+* click on the element with "ID" whose value is equal to ":KW_home[header.shopping_cart_icon]"
 
 # click on the sort icon
 * click on the element with "XPATH" whose value is equal to ":KW_home[header.shopping_cart_icon]"

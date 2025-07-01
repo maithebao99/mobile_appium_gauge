@@ -92,5 +92,20 @@ public class CommonUtils {
         }
     }
 
+    public static void waitForSeconds(String seconds) {
+        try {
+            int sec = Integer.parseInt(seconds.trim());
+            Thread.sleep(sec * 1000L);
+            System.out.println("Waited for " + sec + " second(s)");
+        } catch (NumberFormatException e) {
+            System.err.println("Invalid input! Not a number: " + seconds);
+            throw new IllegalArgumentException("Expected a number for seconds but got: " + seconds, e);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            System.err.println("Wait was interrupted: " + e.getMessage());
+        }
+    }
+
+
 
 }
