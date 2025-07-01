@@ -1,0 +1,8 @@
+# open login screen successfully
+* click on the navigation icon
+* click on the element with "XPATH" whose value is equal to ":KW_navigation[navigationBar.btn_login]"
+
+# login successfully and go to home screen with user name <userName> and password <passWord>
+* input value <userName> on the element with "XPATH" whose value is equal to ":KW_login[login.textbox_username]"
+* input value <passWord> on the element with "XPATH" whose value is equal to ":KW_login[login.textbox_password]"
+* click on the element with "XPATH" whose value is equal to ":KW_login[login.btn_login]"

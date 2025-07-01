@@ -1,0 +1,3 @@
+navigationBar:
+  navigation_icon: //android.widget.ImageView[@content-desc="View menu"]
+  btn_login: //android.widget.TextView[@content-desc="Login Menu Item"]

@@ -1,0 +1,11 @@
+header:
+  navigation_icon: //android.widget.ImageView[@content-desc="View menu"]
+  sort_btn: //android.widget.ImageView[@resource-id='com.saucelabs.mydemoapp.android:id/sortIV']
+  shopping_cart_icon: //android.widget.ImageView[@resource-id='com.saucelabs.mydemoapp.android:id/cartIV']
+products_list:
+  first_product: //androidx.recyclerview.widget.RecyclerView[@resource-id="com.saucelabs.mydemoapp.android:id/productRV"]/android.view.ViewGroup[1]
+  second_product: //androidx.recyclerview.widget.RecyclerView[@resource-id="com.saucelabs.mydemoapp.android:id/productRV"]/android.view.ViewGroup[2]
+  third_product: //androidx.recyclerview.widget.RecyclerView[@resource-id="com.saucelabs.mydemoapp.android:id/productRV"]/android.view.ViewGroup[3]
+  fourth_product: //androidx.recyclerview.widget.RecyclerView[@resource-id="com.saucelabs.mydemoapp.android:id/productRV"]/android.view.ViewGroup[4]
+  fifth_product: //androidx.recyclerview.widget.RecyclerView[@resource-id="com.saucelabs.mydemoapp.android:id/productRV"]/android.view.ViewGroup[5]
+  final_product: //androidx.recyclerview.widget.RecyclerView[@resource-id="com.saucelabs.mydemoapp.android:id/productRV"]/android.view.ViewGroup[last()]

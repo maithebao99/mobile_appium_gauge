@@ -1,0 +1,4 @@
+login:
+  textbox_username: //android.widget.FrameLayout[@content-desc="Container for fragments"]/android.widget.ScrollView/android.view.ViewGroup/android.widget.RelativeLayout[1]/android.widget.EditText
+  textbox_password: //android.widget.FrameLayout[@content-desc="Container for fragments"]/android.widget.ScrollView/android.view.ViewGroup/android.widget.RelativeLayout[2]/android.widget.EditText
+  btn_login: //android.widget.Button[@content-desc="Tap to login with given credentials"]
