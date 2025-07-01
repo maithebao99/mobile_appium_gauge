@@ -23,4 +23,10 @@ public class CommonSteps {
         CommonUtils.verifyTextByLocator(type, locator, comparisonType, expectedText);
     }
 
+    @Step("wait for <seconds> second(s)")
+    public void waitForSeconds(String seconds)
+    {
+        CommonUtils.waitForSeconds(seconds);
+    }
+
 }

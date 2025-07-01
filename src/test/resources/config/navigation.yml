@@ -1,5 +1,5 @@
 navigationBar:
-  navigation_icon: //android.widget.ImageView[@content-desc="View menu"]
+  navigation_icon: com.saucelabs.mydemoapp.android:id/menuIV #id
   btn_catalog: //android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']
   btn_login: //android.widget.TextView[@content-desc="Login Menu Item"]
   btn_logout: //android.widget.TextView[@content-desc="Logout Menu Item"]
